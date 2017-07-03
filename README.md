@@ -31,10 +31,12 @@ Example:<br />
 
 To use PROJECTION:<br />
 >> ssql PROJECTION relationName, [attr1, attr2, ….. attr(i)]<br />
+
 Example:<br />
 >> ssql PROJECTION table1,A <br />
 
 To use JOIN:<br />
 >> ssql JOIN relationName1, relationName2, ON relation1.attr, relation2.attr<br />
+
 Example: <br />
 >> ssql JOIN table1,table2 ON table1.A,table2.B <br />
