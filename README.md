@@ -7,7 +7,7 @@ The Simple RDBMS Query Tool reads csv files and converts them into a relational 
 
 
 How to Run in Terminal: 
-$ javac ssql.java
+$ javac ssql.java <\b>
 $ java ssql 
 
 Then you should see: 
@@ -19,11 +19,13 @@ type quit at prompt to exit the program
 
 To Open file 
 >> ssql init filename.csv 
+
 Example: 
 >> ssql init table1.csv
 
 To use SELECTION:
 >> ssql SELECTION relationName, attributeName, Operator, constant. 
+
 Example:
 >> ssql SELECTION table1,A,<,2
 
