@@ -6,7 +6,7 @@ The Simple RDBMS Query Tool reads csv files and converts them into a relational 
 
 
 
-How to Run in Terminal: 
+How to Run in Terminal: <br />
 $ javac ssql.java <br />
 $ java ssql <br />
 
